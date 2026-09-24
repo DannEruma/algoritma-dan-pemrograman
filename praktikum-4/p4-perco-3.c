@@ -6,17 +6,15 @@ int main() {
     printf("Masukkan 3 Angka: ");
     scanf("%d %d %d", &a , &b, &c);
 
-    if (a<b){
-        if (a<c) {
+    if (a<b)
+        if (a<c) 
         hasil = a;
-    } else {
+     else 
         hasil = c;
-    }
-    } else if (b<c) {
+     else if (b<c)
         hasil = b;
-    } else {
+     else
         hasil = c;
-    }
     printf("Angka yang terkecil adalah %d", hasil);
     return 0;
 }
